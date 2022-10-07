@@ -1,6 +1,6 @@
-## **Anna Komarova**
+## **Anna Komarova**  
 #### **Contact information**
-#### e-mail: komarova.ao@gmail.com
+**e-mail: komarova.ao@gmail.com**
 
 ***
 
