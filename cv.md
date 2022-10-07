@@ -1,19 +1,31 @@
 ## **Anna Komarova**
+#### **Contact information**
 #### e-mail: komarova.ao@gmail.com
+
+***
+
 #### **About me**
-I have been working as motion designer for several years now, decided to shift my career path and here I am. 
+I have been working as motion designer for several years, decided to shift my career path and here I am. 
+
+***
+
 #### **Skills**
-* *Design*: Adobe Photoshop, Adobe Illustrator, Adobe After Effects
+* *Design*: Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Maxon Cinema 4D
 * *Version Control Systems*: Tortoise SVN, GIT
 * *Programming languages*: TypeScript, Javascrpit 
+
+***
+
 #### **Courses**
-* HTML Basics, https://ru.code-basics.com/languages/html
-* CSS Basics, https://ru.code-basics.com/languages/css
-* JavaScript, https://ru.code-basics.com/languages/javascript
-* Introduction to programming, https://ru.hexlet.io/courses/introduction_to_programming
+* [HTML Basics](https://ru.code-basics.com/languages/html)
+* [CSS Basics](https://ru.code-basics.com/languages/css)
+* [JavaScript](https://ru.code-basics.com/languages/javascript)
+
+***
+
 #### **Code example**
 ```javascript
-﻿var newFile = File.openDialog("Choose file to read"); 
+var newFile = File.openDialog("Choose file to read"); 
 
 if(newFile != null){ 
     var a = readDocument(newFile, 0).contentArray;
@@ -41,8 +53,15 @@ function readDocument(inputDoc, linesToSkip){
        'contentList': contentList 
     }
 }
+```
+
+***
+
 #### **Work experience**
 Some years as motion designer
 
+***
+
 #### **English level**
-C2 (82/100) EF Standard English Test (EF SET) - https://www.efset.org/cert/unW32z
+[C2 (81/100)](https://www.efset.org/cert/unW32z) EF Standard English Test (EF SET)  
+![Pic for the test](/images/cert.jpg "Certificate")
