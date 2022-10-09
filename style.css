@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+} 
+
+/* header styles start */
+/*.header-container {
+    margin: 0, auto;
+    max-width: 1000 px;  
+    height: 200 px; 
+    background-color: #1abc9c;
+    color: white;
+}*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: auto;
+}
+.flex-container-element-1 {
+    width: 35%;
+    background-color: #1abc9c;
+}
+.flex-container-element-2 {
+    width: 65%;
+    background-color: #9c1abc;
+}
+/* .header-container h1, h2 {
+    margin: 0;
+} */
+/* header styles end */
