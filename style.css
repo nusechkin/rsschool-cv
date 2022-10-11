@@ -1,18 +1,54 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('assets/fonts/roboto-v30-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+
 html {
     box-sizing: border-box;
 }
 *, *::before, *::after {
     box-sizing: inherit;
 } 
+h1, h2, h3 {
+  font-family: Roboto;  
+  font-size: 22px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  margin: 0;
+  padding-bottom: 15px;
+  color: #ab79d6;
+}
 
-/* header styles start */
-/*.header-container {
-    margin: 0, auto;
-    max-width: 1000 px;  
-    height: 200 px; 
-    background-color: #1abc9c;
-    color: white;
-}*/
+.text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0; 
+    
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -21,13 +57,52 @@ html {
 }
 .flex-container-element-1 {
     width: 35%;
-    background-color: #1abc9c;
+    background-color: #27272c;
+    color: white;
 }
 .flex-container-element-2 {
     width: 65%;
-    background-color: #9c1abc;
+    background-color: #ececec;
+    color:#27272c;
 }
-/* .header-container h1, h2 {
+/* section contacts start */
+.img-icon {
+    width: 20px;
+    height: 20px;
+    /* margin: 5px 0px; */
+    vertical-align: middle;
+}
+.list-contacts {
+    list-style-type: none;
+    padding-left: 0px;
     margin: 0;
+}
+/* .list-contacts-item {
+    margin: 5px 0px;
 } */
-/* header styles end */
+/* section contacts end */
+.block {
+    margin: 20px;
+}
+.img-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    display: block;
+}
+.list-bullets, .list-ticks {
+    padding-left: 0px; 
+    list-style-position: inside;
+    margin: 0;
+}
+.list-bullets li::marker {
+    color: #ab79d6;   
+}
+.list-item {
+    padding-bottom: 10px;
+}
+.list-ticks li::marker{
+    content: '✓ ';
+    color: #ab79d6; 
+}

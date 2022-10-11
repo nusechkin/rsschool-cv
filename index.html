@@ -12,51 +12,75 @@
 <body>
     <header >
         <div class="flex-container">
-            <div class="flex-container-element-1"></div>
+            <div class="flex-container-element-1">
+                <div class="block">
+                    <img class="img-photo" src="assets/images/photo.jpg" alt="photo">
+                </div>
+            </div>
             <div class="flex-container-element-2">
-                <h1>Anna Komarova</h1>
-                <h2>Junior front-end developer</h2>
-                <p>I have been working as motion designer for several years, decided to shift my career path and here I am.</p> 
+                    <div class="block">
+                    <h1>Anna Komarova</h1>
+                    <h2>Junior front-end developer</h2>
+                    <p class="text">I have been working as motion designer for several years, decided to shift my career path and here I am.</p> 
+                </div>
             </div>
         </div>
     </header>
     <main>
         <div class="flex-container">
             <div class="flex-container-element-1">
-                <section>
-                    <h5>Contacts</h5>
-                    <ul>
-                        <li>e-mail: komarova.ao@gmail.com</li>
-                        <li>phone: +8 (912) 887-63-56</li>
-                        <li>twitter: Faketwitteracc </li>
+                <section class="block">
+                    <h3>Contacts</h3>
+                    <ul class="text list-contacts">
+                        <li class="list-item"><img class="img-icon" src="assets/svg/icon-location.svg" alt="location icon"> Saint Petersburg, Russia</li>
+                        <li class="list-item"><img class="img-icon" src="assets/svg/icon-phone.svg" alt="phone icon"> +8 (912) 887-63-56</li>
+                        <li class="list-item"><img class="img-icon" src="assets/svg/icon-email.svg" alt="email icon"> komarova.ao@gmail.com</li>
+                    </ul>
+
+                </section>
+                <section class="block">
+                    <h3>Skills</h3>
+                    <ul class="text list-bullets">
+                        <li class="list-item">Adobe Photoshop</li>
+                        <li class="list-item">Figma</li>
+                        <li class="list-item">Tortoise SVN, GIT</li>
+                        <li class="list-item">TypeScript, Javascript</li>
                     </ul>
                 </section>
-                <section>
-                    <h5>Skills</h5>
-                    <ul>
-                        <li><i>Design:</i> Adobe Photoshop, Adobe Illustrator, Adobe After Effects</li>
-                        <li><i>Version Control Systems:</i> Tortoise SVN, GIT</li>
-                        <li><i>Programming languages:</i> TypeScript, Javascript</li>
-                    </ul>
-                </section>
-                <section>
-                    <h5>Language</h5>
-                    <ul>
-                        <li>Russian</li>
-                        <li>English: C2 <a href="https://www.efset.org/cert/unW32z">(EF SET)</a></li>
+                <section class="block">
+                    <h3>Language</h3>
+                    <ul class="text list-ticks">
+                        <li class="list-item">Russian</li>
+                        <li class="list-item">English: C2 <a href="https://www.efset.org/cert/unW32z">(EF SET)</a></li>
                     </ul>
                 </section>
             </div>
             <div class="flex-container-element-2">
-                <section>
-                    <h5>Work expierence</h5>
-                    <p>There will be several blocks with information</p>
+                <section class="block">
+                    <h3>Work experience</h3>
+                    <div class="work">
+                        <p class="text">2017-2022<br>
+                        Some Company Name | St. Petersburg</p>
+                        <h5>Motion 3D designer</h5>
+                        <p class="text">Full cycle of creating animations, from storyboarding to delivery: educational, explainer, B2B videos. 
+                                        Broadcast packages, product promos, infographics, presentations. Script development for After Effects.</p>
+                        
+                    </div>
+                    <div class="work">
+                        <p class="text">2011-2017<br>
+                        Some Company Name | Moscow</p>
+                        <h5>Designer</h5>
+                        <p class="text">Full cycle of creating animations, from storyboarding to delivery: educational, explainer, B2B videos. 
+                                        Broadcast packages, product promos, infographics, presentations. Script development for After Effects.</p>
+                        
+                    </div>
+                    <p class="text">There will be several blocks with information</p>
                 </section>
-                <section>
-                    <h5>Education</h5>
-                    <p>2011<br>
-                    Degree<br>
-                    University</p>
+                <section class="block">
+                    <h3>Education</h3>
+                    <p class="text">2006-2011<br>
+                    Applied informatics<br>
+                    Moscow University</p>
                 </section>
             </div>
         </div>
