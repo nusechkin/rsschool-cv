@@ -27,18 +27,52 @@
 
 html {
     box-sizing: border-box;
+    background-color: #ececec;
 }
 *, *::before, *::after {
     box-sizing: inherit;
 } 
-h1, h2, h3 {
+h1 {
+    font-family: Roboto;  
+    font-size: 30px;  
+    font-weight: 700;
+    margin: 0;
+    color: #27272c;
+    /* padding-bottom: 5px; */
+}
+h2 {
   font-family: Roboto;  
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
+  color: #27272c;
   /* text-transform: uppercase; */
   margin: 0;
   padding-bottom: 15px;
-  color: #ab79d6;
+}
+
+h3 {
+   font-family: Roboto;  
+   font-size: 22px;
+   font-weight: 700;
+   margin: 0;
+   padding-bottom: 15px;  
+}
+
+h5 {
+    font-family: Roboto;  
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 5px; 
+    color: #5a5a5a;  
+}
+.header-1 {
+    color: #ab79d6;  
+}
+
+.header-2 {
+    /* color:#27272c; */
+    color: #ab79d6;
 }
 
 .text {
@@ -47,6 +81,28 @@ h1, h2, h3 {
     font-weight: 100;
     margin: 0; 
     
+}
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: auto;
+    align-items: stretch;
+}
+.flex-container-header-element-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: #27272c;
+    color: white;
+}
+.flex-container-header-element-2 {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    background-color:white;
+    color:#5a5a5a;
 }
 
 .flex-container {
@@ -62,8 +118,8 @@ h1, h2, h3 {
 }
 .flex-container-element-2 {
     width: 65%;
-    background-color: #ececec;
-    color:#27272c;
+    background-color: white;
+    color:#5a5a5a;
 }
 /* section contacts start */
 .img-icon {
@@ -105,4 +161,26 @@ h1, h2, h3 {
 .list-ticks li::marker{
     content: '✓ ';
     color: #ab79d6; 
+}
+.link {
+    color: white;
+    /* text-decoration: none; */
+}
+.work {
+    padding-bottom: 10px;
+}
+.date {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5a5a5a;
+    margin: 0; 
+
+}
+.company-name {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0; 
+    padding-bottom: 5px;
 }
