@@ -1,0 +1,216 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('assets/fonts/roboto-v30-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+
+html {
+    box-sizing: border-box;
+    background-color: #ececec;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+} 
+h1 {
+    font-family: Roboto;  
+    font-size: 30px;  
+    font-weight: 700;
+    margin: 0;
+    color: #27272c;
+    /* padding-bottom: 5px; */
+}
+
+h2 {
+    font-family: Roboto;  
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 15px;  
+ }
+
+h3 {
+  font-family: Roboto;  
+  font-size: 16px;
+  font-weight: 700;
+  color: #27272c;
+  /* text-transform: uppercase; */
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+
+
+h5 {
+    font-family: Roboto;  
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 5px; 
+    color: #5a5a5a;  
+}
+.header-1 {
+    color: #ab79d6;  
+}
+
+.header-2 {
+    /* color:#27272c; */
+    color: #ab79d6;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0; 
+    
+}
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: auto;
+    align-items: stretch;
+}
+.flex-container-header-element-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: #27272c;
+    color: white;
+}
+.flex-container-header-element-2 {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    background-color:white;
+    color:#5a5a5a;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: auto;
+}
+.flex-container-element-1 {
+    width: 35%;
+    background-color: #27272c;
+    color: white;
+}
+.flex-container-element-2 {
+    width: 65%;
+    background-color: white;
+    color:#5a5a5a;
+}
+/* section contacts start */
+.img-icon {
+    width: 20px;
+    height: 20px;
+    /* margin: 5px 0px; */
+    vertical-align: middle;
+}
+.list-contacts {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0;
+}
+/* .list-contacts-item {
+    margin: 5px 0px;
+} */
+/* section contacts end */
+.block {
+    margin: 20px;
+}
+.img-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    display: block;
+}
+.list-bullets, .list-ticks {
+    padding-left: 0px; 
+    list-style-position: inside;
+    margin: 0;
+}
+.list-bullets li::marker {
+    color: #ab79d6;   
+}
+.list-item {
+    padding-bottom: 10px;
+}
+.list-ticks li::marker{
+    content: '✓ ';
+    color: #ab79d6; 
+}
+.link {
+    color: white;
+}
+.work {
+    padding-bottom: 10px;
+}
+.code {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0; 
+}
+.punct-1 {
+    color: #ab79d6;
+}
+.punct-2 {
+    color: #00bbcb;
+}
+.punct-3 {
+    color: #d367c1;
+}
+.date {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5a5a5a;
+    margin: 0; 
+
+}
+.company-name {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0; 
+    padding-bottom: 5px;
+}
+
+.rsschool-icon {
+    float: right;
+    height: 30px;
+}
+
+.footer-wrapper {
+    width: 800px;
+    margin: 10px auto; 
+}
+.link-footer {
+    color: #5a5a5a;
+}
