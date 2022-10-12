@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
@@ -24,7 +24,7 @@
                             <h3 class="header-2">Junior Frontend Developer</h3>
                             <p class="text">Enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position
                                             with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion
-                                            of projects. I have a keen eye for detail due to several years of experience as a designer.</p> 
+                                            of projects. I have a keen eye for detail due to several years of experience as a designer.</p>
                         </div>
 
                 </div>
@@ -69,17 +69,14 @@
                         <h5>Motion 3D designer</h5>
                         <p class="date">2017-2022</p>
                         <p class="company-name">VideoStore Media Company | St. Petersburg</p>
-                        
-                        <p class="text">Full cycle of creating animations, from storyboarding to delivery: educational, explainer, B2B videos. 
+                        <p class="text">Full cycle of creating animations, from storyboarding to delivery: educational, explainer, B2B videos.
                                         Broadcast packages, product promos, infographics, presentations. Script development for After Effects.</p>
-                        
                     </div>
                     <div class="work">
                         <h5>Designer</h5>
                         <p class="date">2011-2017</p>
                         <p class="company-name">Print-And-Pack, LLC | Moscow</p>
                         <p class="text">Presentations, static infographics, logos, illustrations. </p>
-                        
                     </div>
                 </section>
                 <section class="block">
@@ -93,41 +90,39 @@
                     <div class="code">
                         <pre>
 <span class="punct-1">var</span> newFile = File.openDialog<span class="punct-1">(</span><span class="punct-3">"Choose file to read"</span><span class="punct-1">)</span>;
-        
-<span class="punct-1">if(</span>newFile != <span class="punct-1">null){</span> 
+<span class="punct-1">if(</span>newFile != <span class="punct-1">null){</span>
   <span class="punct-1">var</span> a = readDocument<span class="punct-2">(</span>newFile, <span class="punct-2">0)</span>.contentArray;
-            
   app.beginUndoGroup<span class="punct-2">(</span><span class="punct-3">"Import Text"</span><span class="punct-2">)</span>;
   createNewComps<span class="punct-2">(</span>a<span class="punct-2">)</span>;
   app.endUndoGroup<span class="punct-2">()</span>;
   <span class="punct-1">}</span>
-        
+
   <span class="punct-1">function</span> readDocument<span class="punct-1">(</span>inputDoc, linesToSkip<span class="punct-1">){</span>
     <span class="punct-1">var</span> curDoc = <span class="punct-1">new</span> File<span class="punct-2">(</span>inputDoc<span class="punct-2">)</span>;
     <span class="punct-1">if</span> <span class="punct-2">(</span>curDoc.exists<span class="punct-2">){</span>
         <span class="punct-1">var</span> contentArray = <span class="punct-1">new</span> Array<span class="punct-3">()</span>;
-        curDoc.open<span class="punct-3">("r")</span>; 
-        <span class="punct-1">while</span><span class="punct-3">(</span>!curDoc.eof<span class="punct-3">){</span> 
-            contentArray<span class="punct-1">[</span>contentArray.length<span class="punct-1">]</span> 
+        curDoc.open<span class="punct-3">("r")</span>;
+        <span class="punct-1">while</span><span class="punct-3">(</span>!curDoc.eof<span class="punct-3">){</span>
+            contentArray<span class="punct-1">[</span>contentArray.length<span class="punct-1">]</span>
                             = curDoc.readln<span class="punct-1">()</span>;
         <span class="punct-3">}</span>
         curDoc.close<span class="punct-3">()</span>;
     <span class="punct-2">}</span>
-    contentArray.splice<span class="punct-2">(0</span>, linesToSkip<span class="punct-2">)</span>; 
+    contentArray.splice<span class="punct-2">(0</span>, linesToSkip<span class="punct-2">)</span>;
     <span class="punct-1">var</span> contentList = contentArray.
                       join<span class="punct-2">(</span><span class="punct-3">"_dpt_"</span><span class="punct-2">)</span>.toString<span class="punct-2">()</span>.replace<span class="punct-2">(</span>
-                        <span class="punct-1">new</span> RegExp<span class="punct-3">("_dpt_"</span>, <span class="punct-3">"g")</span>, <span class="punct-3">"\r"</span><span class="punct-2">)</span>; 
+                        <span class="punct-1">new</span> RegExp<span class="punct-3">("_dpt_"</span>, <span class="punct-3">"g")</span>, <span class="punct-3">"\r"</span><span class="punct-2">)</span>;
     contentArray = contentArray;
     <span class="punct-1">return</span><span class="punct-2">{</span>
-        <span class="punct-3">'contentArray'</span>: contentArray, 
-        <span class="punct-3">'contentList'</span>: contentList 
+        <span class="punct-3">'contentArray'</span>: contentArray,
+        <span class="punct-3">'contentList'</span>: contentList
     <span class="punct-2">}</span>
 <span class="punct-1">}</span>
                         </pre>
                     </div>
                 </section>
                 <section class="block">
-                    <h2 class="header-2">Project examples</h2> 
+                    <h2 class="header-2">Project examples</h2>
                     <p class="text"><a class="link-footer" href="https://nusechkin.github.io/rsschool-cv/cv" target="_blank">My CV markdown page</a></p>
                 </section>
             </div>
