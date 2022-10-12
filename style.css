@@ -31,10 +31,10 @@ html {
 }
 *, *::before, *::after {
     box-sizing: inherit;
-} 
+}
 h1 {
-    font-family: Roboto;  
-    font-size: 30px;  
+    font-family: Roboto;
+    font-size: 30px;
     font-weight: 700;
     margin: 0;
     color: #27272c;
@@ -42,15 +42,15 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto;  
+    font-family: Roboto;
     font-size: 22px;
     font-weight: 700;
     margin: 0;
-    padding-bottom: 15px;  
+    padding-bottom: 15px;
  }
 
 h3 {
-  font-family: Roboto;  
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   color: #27272c;
@@ -62,15 +62,15 @@ h3 {
 
 
 h5 {
-    font-family: Roboto;  
+    font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
     margin: 0;
-    padding-bottom: 5px; 
-    color: #5a5a5a;  
+    padding-bottom: 5px;
+    color: #5a5a5a;
 }
 .header-1 {
-    color: #ab79d6;  
+    color: #ab79d6;
 }
 
 .header-2 {
@@ -82,8 +82,7 @@ h5 {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    margin: 0; 
-    
+    margin: 0;
 }
 .flex-container-header {
     display: flex;
@@ -151,19 +150,19 @@ h5 {
     display: block;
 }
 .list-bullets, .list-ticks {
-    padding-left: 0px; 
+    padding-left: 0px;
     list-style-position: inside;
     margin: 0;
 }
 .list-bullets li::marker {
-    color: #ab79d6;   
+    color: #ab79d6;
 }
 .list-item {
     padding-bottom: 10px;
 }
 .list-ticks li::marker{
     content: '✓ ';
-    color: #ab79d6; 
+    color: #ab79d6;
 }
 .link {
     color: white;
@@ -175,7 +174,7 @@ h5 {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 400;
-    margin: 0; 
+    margin: 0;
 }
 .punct-1 {
     color: #ab79d6;
@@ -191,14 +190,14 @@ h5 {
     font-size: 14px;
     font-weight: 700;
     color: #5a5a5a;
-    margin: 0; 
+    margin: 0;
 
 }
 .company-name {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    margin: 0; 
+    margin: 0;
     padding-bottom: 5px;
 }
 
@@ -209,7 +208,7 @@ h5 {
 
 .footer-wrapper {
     width: 800px;
-    margin: 10px auto; 
+    margin: 10px auto;
 }
 .link-footer {
     color: #5a5a5a;
