@@ -40,7 +40,16 @@ h1 {
     color: #27272c;
     /* padding-bottom: 5px; */
 }
+
 h2 {
+    font-family: Roboto;  
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 15px;  
+ }
+
+h3 {
   font-family: Roboto;  
   font-size: 16px;
   font-weight: 700;
@@ -50,13 +59,7 @@ h2 {
   padding-bottom: 15px;
 }
 
-h3 {
-   font-family: Roboto;  
-   font-size: 22px;
-   font-weight: 700;
-   margin: 0;
-   padding-bottom: 15px;  
-}
+
 
 h5 {
     font-family: Roboto;  
@@ -78,7 +81,7 @@ h5 {
 .text {
     font-family: Roboto;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
     margin: 0; 
     
 }
@@ -164,10 +167,24 @@ h5 {
 }
 .link {
     color: white;
-    /* text-decoration: none; */
 }
 .work {
     padding-bottom: 10px;
+}
+.code {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0; 
+}
+.punct-1 {
+    color: #ab79d6;
+}
+.punct-2 {
+    color: #00bbcb;
+}
+.punct-3 {
+    color: #d367c1;
 }
 .date {
     font-family: Roboto;
@@ -183,4 +200,17 @@ h5 {
     font-weight: 400;
     margin: 0; 
     padding-bottom: 5px;
+}
+
+.rsschool-icon {
+    float: right;
+    height: 30px;
+}
+
+.footer-wrapper {
+    width: 800px;
+    margin: 10px auto; 
+}
+.link-footer {
+    color: #5a5a5a;
 }
